@@ -6,6 +6,10 @@
     font-family:'android';
     src: url('idroid.otf');
 }
+*{
+    padding: 0px;
+    margin: 0px;
+}
 body{
     background-color: rgba(127, 255, 191, 0.829);
     font-family: Arial, Helvetica, sans-serif;
@@ -22,29 +26,29 @@ main{
     
 }
 div#inicial{
+    padding-top: 10px;
     text-align: center;
-    padding: 30px 0px 20px 0px;
     color: white;
-    font-family: c;
     font-size: 3em;
     letter-spacing: -2px ;
     font-family: 'receba';
     
 }
 div#inicial2{
-    padding: 20px 0px 20px 0px;
+    padding: 5px 0px 20px 0px;
     text-align: center;
     color: white;
-    margin-bottom: 10px;
+    margin: 10px auto 0px auto;
+    width: 50%;
     
     
 }
 nav{
-    margin-bottom: 8px;
+    padding: 10px;
 }
 header{
     background-image: linear-gradient(rgb(94, 233, 128),rgba(0, 0, 0, 0.678));
-    margin: -8px;
+    
     }
     a{
         color: rgb(0, 131, 0);
@@ -59,8 +63,9 @@ header{
         text-decoration: none;
         color: white;
         font-size: large;
-        padding: 10px;
+        padding: 5px;
         border-radius: 10px;
+
         
     }
     nav>a:hover{
@@ -68,12 +73,18 @@ header{
         color: lightblue;
         background-color: rgba(16, 97, 16, 0.644);
         margin: 1px;
+        padding: 5px;
+        
+    }
+    p{
+        margin: 10px;
     }
     h1{
         font-family: 'android';
         font-size: 1.7em;
         color: rgba(0, 128, 0, 0.836);
         margin: auto;
+        
     }
     h2{
         font-family: 'android';
@@ -87,63 +98,54 @@ header{
         color: white;
         padding: 10px 20px 10px 20px;
         border-radius: 10px 10px 0px 0px;
+        margin-top: -320px;
+    }
+    img{
+        width: 60%;
+        margin: 10px;
+    }
+    #droid{
+    width: 50%;
+        
     }
 
-    p{
-        text-indent: 30px;
-        
-        
-        
-    }
    picture{
         display: flex;
     justify-content: center;
     }
     picture#video{
         background-color: rgba(16, 82, 16, 0.767);
-        padding: 15px 0px 15px 0px;
-    }
-    #listas{
-        display: flex;
-        justify-content: space-between; /* Separa as duas colunas à esquerda e à direita */
+        margin: 0px -20px 330px -20px;
+        position: relative;
+        padding-bottom: 50%;
         
     }
-  .list{
-    padding: 20px;
-    background-color: rgba(136, 201, 136, 0.74);
-    margin-top: -19px;
-  }
-  .list1{
-    padding: 15px;
-    background-color: rgba(136, 201, 136, 0.74);
-    margin-top: 0px;
-  }
-  .list2{
-    padding: 0px 15px 15px 15px;
-    background-color: rgba(136, 201, 136, 0.74);
-    margin-top: -16px;
-    border-radius: 0px 0px 10px 10px;
-  }
-  #lista1{
- width: 467px;
-    background-color: rgba(136, 201, 136, 0.74);
-    margin-top: -16px;
-    list-style: none;
-  }
-  #lista2{
-    width: 433px;
-    background-color: rgba(136, 201, 136, 0.74);
-    list-style: none;
-    margin-top: -16px;
-  }
-li{
-    text-indent: 30px;
-}
+    #video>iframe{
+top: 5%;
+width: 79.5%;
+height:90% ;
+position: absolute;
+    }
+    #list{
+        text-indent: 30px;
+        background-color: rgba(136, 201, 136, 0.74);
+        padding: 5px;
+        margin-bottom: 10px;
+
+    }
+    #listas{
+        columns: 2;
+        list-style: none;
+        padding: 5px;
+        
+
+    }
+
 footer{
     text-align: center;
     background-color:rgb(0, 58, 0) ;
     padding: 5px;
-    margin: 20px -8px -8px -8px;
+margin-top: 20px;
     color: white;
    
 
